@@ -1,0 +1,31 @@
+# Nmap 7.98 scan initiated Thu Nov  5 18:30:06 2026 as: nmap -sS -oN scan_results.txt 192.168.1.0/24
+Nmap scan report for RTK_GW (192.168.1.1)
+Host is up (0.0053s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  filtered ftp
+22/tcp  open     ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: A8:E2:07:8B:61:1B (Goip Global Services Pvt.)
+
+Nmap scan report for 192.168.1.35
+Host is up (0.0084s latency).
+All 1000 scanned ports on 192.168.1.35 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 02:08:FB:97:FC:5F (Unknown)
+
+Nmap scan report for Dollyyyyy (192.168.1.34)
+Host is up (0.00099s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+5432/tcp open  postgresql
+7070/tcp open  realserver
+
+# Nmap done at Thu Nov  5 18:30:11 2026 -- 256 IP addresses (3 hosts up) scanned in 5.69 seconds
